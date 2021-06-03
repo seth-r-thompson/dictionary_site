@@ -1,0 +1,59 @@
+body {
+	background: #aaf0d1;
+	text-align: center;
+	font: sans-serif;
+}
+
+.splash {
+	text-align: center;
+	font-size: large;
+}
+
+.tools {
+	text-align: center;
+}
+
+.wordlist table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.wordlist td {
+	text-align: center;
+	border: 2px solid #041910;
+	background-color: #a8e0f0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.wordlist th {
+	font-size: large;
+	padding-bottom: 5px;
+}
+
+.wordlist tr {
+	height: 100px;
+}
+
+.wordlist tr:hover :not(th) {
+	background-color: #a8c8f0;
+}
+
+.error {
+	font-weight: bold;
+}
+
+input, select {
+	border: none;
+	font-size: medium;
+}
+
+
+input[type=submit] {
+	background: #041910;
+	color: #ffffff;
+}
+
+a {
+	color: #df448A;
+}
